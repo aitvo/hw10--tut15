@@ -16,7 +16,6 @@ const pool = new Pool({
 ////////////////////////////////////////
 //////// CONFIG - SET UP EJS
 app.set("view engine", "ejs");
-app.use(express.static("public/css"))
 
 /////// START SERVER
 app.listen(process.env.PORT || 3000, () => {
